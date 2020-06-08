@@ -16,20 +16,7 @@
 - [Copyright and license](#coopyright-and-license)
 
 
-## Motivation
-
-Having gone through many processes of  **repeatedly writing  the same or similar CSS codes**  every time I want to start a new project, I realized that I needed to build:
-1.  A library that helps me set up **responsive layouts**  so I can  **focus**  more on what I want to build;
-
-2. A library that provides me with a basic form of any  **component**  (like slideshows, tooltips, dropdowns, accordions, etc) that I need at a particular moment which I can easily modify to suit my needs;
-
-3. A library that provides  **abbreviations** for common CSS properties  I can  **use and reuse**  instead of  repeating those properties every time.
-
-4. A library that unifies all the functionalities listed above to prepare the basic setup of our designs and UI components.
-This will make you and I to **use them as a  foundation**  and  **build upon it**  when developing interactive web sites.
-
-
-## Features
+## What it does
 
 *  **Ready-made fluid grid containers** that  **preserves**  the  **proportion**  of your elements and give you  **superpowers**  to display your page  **responsively** .
 
