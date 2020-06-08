@@ -4,12 +4,63 @@
  *---------------------------------------------------------------------------------
  */
 /* Text decoration */
+.tdn {
+  text-decoration: none; }
+
+.tdu {
+  text-decoration: underline; }
+
 /* Text align */
+.tac {
+  text-align: center; }
+
+.tal {
+  text-align: left; }
+
+.tar {
+  text-align: right; }
+
 /* Text transform */
+.ttu {
+  text-transform: uppercase; }
+
+.ttl {
+  text-transform: lowercase; }
+
+.ttc {
+  text-transform: capitalize; }
+
 /* Display */
+.d-inline {
+  display: inline; }
+
+.db {
+  display: block; }
+
+.dib {
+  display: inline-block; }
+
 /* Margin 0 auto */
+.m0a {
+  margin: 0 auto; }
+
 /* Clearfix for floated contents */
+.cf::after {
+  content: '';
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both; }
+
 /* Absolute center vertically and horizontally */
+.center-vh {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
 /**
  * --------------------------------------------------------------------------------
  * G R I D S
