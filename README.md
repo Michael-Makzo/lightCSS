@@ -1,16 +1,20 @@
-# Light CSS
+<h2 align="center">Light CSS</h2>
 
-A lightweight CSS library that helps you  **set up**  your webpage  **components**  and  **responsive layouts** , quickly, by providing a bunch of  **reusable mixins** and  **classes**   which can be further  **extended**  to suit your **project requirements.**
+<p align="center">
+    A lightweight CSS library that helps you  **set up**  your webpage  **components**  and  **responsive layouts** , quickly, by providing a bunch of  **reusable mixins** and  **classes**   which can be further  **extended**  to suit your **project requirements.**
+</p>
 
-# Contents
+
+## Table of contents
 
 - [Motivation](#motivation)
 - [Features](#features)
 - [Code Examples](#code-examples)
 - [Getting Started](#getting-started)
+- [Documentation](#documentation)
 - [Installation](#installation)
-- [Reference Docs](#reference-docs)
 - [License](#license)
+
 
 ## Motivation
 
@@ -24,6 +28,7 @@ Having gone through many processes of  **repeatedly writing  the same or similar
 4. A library that unifies all the functionalities listed above to prepare the basic setup of our designs and UI components.
 This will make you and I to **use them as a  foundation**  and  **build upon it**  when developing interactive web sites.
 
+
 ## Features
 
 *  **Ready-made fluid grid containers** that  **preserves**  the  **proportion**  of your elements and give you  **superpowers**  to display your page  **responsively** .
@@ -34,17 +39,36 @@ This will make you and I to **use them as a  foundation**  and  **build upon it*
 
 * ** Easily extensible**  and offers  **great flexibility** .
 
+
 ## Code Examples
 
+
 ## Getting Started
+
 Will be out soon
+
 
 ## Installation
+
 Will be out soon
 
-## Reference Docs
+
+## Documentation
+
 Will be out soon
 
-## License
 
-[MIT LICENSE](https://github.com/Michael-Makzo/LightCSS/blob/master/LICENSE)
+## Creators
+
+**Michael Joseph**
+- <https://github.com/Michael-Makzo>
+- <michaelokpegboro@gmail.com>
+
+**Michael Udeh**
+- <https://github.com/ndmichael>
+- <ukejemicheal@gmail.com>
+
+
+## Copyright and license
+
+Code copyright 2020. Code released under the [MIT LICENSE](https://github.com/Michael-Makzo/LightCSS/blob/master/LICENSE)
