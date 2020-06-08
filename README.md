@@ -42,6 +42,9 @@ Will be out soon
 ## Installation
 Will be out soon
 
+## Reference Docs
+Will be out soon
+
 ## License
 
 [MIT LICENSE](https://github.com/Michael-Makzo/LightCSS/blob/master/LICENSE)
