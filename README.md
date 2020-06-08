@@ -1,7 +1,7 @@
 <h2 align="center">Light CSS</h2>
 
 <p align="center">
-    A lightweight CSS library that helps you  **set up**  your webpage  **components**  and  **responsive layouts** , quickly, by providing a bunch of  **reusable mixins** and  **classes**   which can be further  **extended**  to suit your **project requirements.**
+    A lightweight CSS library that helps you  <b>set up</b>  your webpage  <b>components</b>  and  <b>responsive layouts</b> , quickly, by providing a bunch of  <b>reusable mixins</b> and <b>classes</b>   which can be further  <b>extended</b>  to suit your <b>project requirements.</b>
 </p>
 
 
