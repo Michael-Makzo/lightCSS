@@ -58,11 +58,13 @@ Will be out soon
 Will be out soon
 
 
-## Creators
+## Creator
 
 **Michael Joseph**
 - <https://github.com/Michael-Makzo>
 - <michaelokpegboro@gmail.com>
+
+## Collaborator(s)
 
 **Michael Udeh**
 - <https://github.com/ndmichael>
