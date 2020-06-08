@@ -7,8 +7,7 @@
 
 ## Table of contents
 
-- [Motivation](#motivation)
-- [Features](#features)
+- [What-it-does](#what-it-does)
 - [Code examples](#code-examples)
 - [Getting started](#getting-started)
 - [Documentation](#documentation)
@@ -24,7 +23,7 @@
 
 *  **Ready-made UI components**  built using  **CSS only** , and in few cases,  **short lines of JS**  is required. This  **boosts the speed**  of your page dramatically.
 
-* ** Easily extensible**  and offers  **great flexibility** .
+* **Easily extensible**  and offers  **great flexibility** .
 
 
 ## Code examples
