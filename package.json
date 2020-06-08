@@ -1,0 +1,25 @@
+{
+  "name": "light-css",
+  "version": "1.0.0",
+  "description": "A light-weight CSS framework that provides reusable components and grid systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Michael-Makzo/lightCSS"
+  },
+  "keywords": [
+    "lightCSS",
+    "CSS",
+    "framework",
+    "mixins"
+  ],
+  "author": "Michael Joseph",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
