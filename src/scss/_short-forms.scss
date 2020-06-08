@@ -1,0 +1,82 @@
+/**
+ * --------------------------------------------------------------------------------
+ * S H O R T      F O R M S   O F   C O M M O N     C S S       P R O P E R T I E S
+ *---------------------------------------------------------------------------------
+ */
+
+/* Text decoration */
+@mixin tdn {
+    text-decoration: none;
+}
+
+@mixin tdu {
+    text-decoration: underline;
+}
+
+/* Text align */
+@mixin tac {
+    text-align: center;
+}
+
+@mixin tar {
+    text-align: right;
+}
+
+@mixin tal {
+    text-align: left;
+}
+
+/* Text transform */
+@mixin ttu {
+    text-transform: uppercase;
+}
+
+@mixin ttl {
+    text-transform: lowercase;
+}
+
+@mixin  ttc {
+    text-transform: capitalize;
+}
+
+/* Display */
+@mixin di {
+    display: inline;
+}
+
+@mixin db {
+    display: block;
+}
+
+@mixin dib {
+    display: inline-block;
+}
+
+/* Margin 0 auto */
+@mixin m0a {
+    margin: 0 auto;
+}
+
+
+/* Clearfix for floated contents */
+@mixin clearfix() {
+    &::after {
+        content: '';
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+
+/* Absolute center vertically and horizontally */
+@mixin centerVH {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
