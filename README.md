@@ -9,11 +9,11 @@
 
 - [Motivation](#motivation)
 - [Features](#features)
-- [Code Examples](#code-examples)
-- [Getting Started](#getting-started)
+- [Code examples](#code-examples)
+- [Getting started](#getting-started)
 - [Documentation](#documentation)
 - [Installation](#installation)
-- [License](#license)
+- [Copyright and license](#coopyright-and-license)
 
 
 ## Motivation
@@ -40,10 +40,10 @@ This will make you and I to **use them as a  foundation**  and  **build upon it*
 * ** Easily extensible**  and offers  **great flexibility** .
 
 
-## Code Examples
+## Code examples
 
 
-## Getting Started
+## Getting started
 
 Will be out soon
 
