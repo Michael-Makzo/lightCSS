@@ -1,0 +1,58 @@
+/**
+ * --------------------------------------------------------------------------------
+ * C O L O U R S
+ *---------------------------------------------------------------------------------
+ */
+
+ /**
+  * Note: The variables declared within ".light-css" selector
+  * is available only for elements whose class names contain the ".light-css" class
+  * or any child element whose parent's class names contain ".light-css" class.
+  */
+
+.light-css {
+
+    // Shades and Tints of Seagreen
+    // Total variations of the seagreen color => 25
+    $color-seagreen-10:  #020604;
+    $color-seagreen-20:  #07150d;
+    $color-seagreen-30:  #0c2416;
+    $color-seagreen-40:  #113320;
+    $color-seagreen-50:  #164129;
+    $color-seagreen-60:  #1f5f3b;
+    $color-seagreen-70:  #246e45;
+    $color-seagreen-80:  #297c4e;
+    $color-seagreen-90:  #2e8b57;
+    $color-seagreen-100: #339a60;
+    $color-seagreen-110: #38a869;
+    $color-seagreen-120: #3db773;
+    $color-seagreen-130: #46c27c;
+    $color-seagreen-140: #55c787;
+    $color-seagreen-150: #63cb91;
+    $color-seagreen-160: #72d09c;
+    $color-seagreen-170: #8fdab0;
+    $color-seagreen-180: #9edfbb;
+    $color-seagreen-190: #ade4c4;
+    $color-seagreen-200: #bce9d0;
+    $color-seagreen-210: #c6ecd6;
+    $color-seagreen-220: #caeeda;
+    $color-seagreen-230: #d9f2e4;
+    $color-seagreen-240: #e8f7ef;
+    $color-seagreen-250: #f7fcf9;
+
+    // Shades of Grey
+    $color-grey-100: #262626;
+    $color-grey-200: #404040;
+    $color-grey-300: #595959;
+    $color-grey-400: #737373;
+    $color-grey-500: #8c8c8c;
+    $color-grey-600: #a6a6a6;
+    $color-grey-700: #bfbfbf;
+    $color-grey-800: #d9d9d9;
+    $color-grey-900: #f2f2f2;
+
+    // Black and White
+    $color-white: #ffffff;
+    $color-black: #0d0d0d;
+
+}
