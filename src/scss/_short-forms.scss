@@ -9,8 +9,16 @@
     text-decoration: none;
 }
 
+.tdn {
+    @include tdn();
+}
+
 @mixin tdu {
     text-decoration: underline;
+}
+
+.tdu {
+    @include tdu();
 }
 
 /* Text align */
@@ -18,43 +26,94 @@
     text-align: center;
 }
 
-@mixin tar {
-    text-align: right;
+.tac {
+    @include tac();
 }
 
 @mixin tal {
     text-align: left;
 }
 
+.tal {
+    @include tal();
+}
+
+@mixin tar {
+    text-align: right;
+}
+
+.tar {
+    @include tar();
+}
+
+
 /* Text transform */
 @mixin ttu {
     text-transform: uppercase;
+}
+
+.ttu {
+    @include ttu();
 }
 
 @mixin ttl {
     text-transform: lowercase;
 }
 
+.ttl {
+    @include ttl();
+}
+
 @mixin  ttc {
     text-transform: capitalize;
 }
+
+.ttc {
+    @include ttc();
+}
+
 
 /* Display */
 @mixin di {
     display: inline;
 }
 
+.d-inline {
+    @include di();
+}
+
 @mixin db {
     display: block;
+}
+
+.db {
+    @include db();
 }
 
 @mixin dib {
     display: inline-block;
 }
 
+.dib {
+    @include dib();
+}
+
+@mixin dn {
+    display: none;
+}
+
+.d-none {
+    @include dn;
+}
+
+
 /* Margin 0 auto */
 @mixin m0a {
     margin: 0 auto;
+}
+
+.m0a {
+    @include m0a();
 }
 
 
@@ -69,6 +128,10 @@
     }
 }
 
+.cf {
+    @include clearfix();
+}
+
 
 /* Absolute center vertically and horizontally */
 @mixin centerVH {
@@ -80,3 +143,6 @@
   transform: translate(-50%,-50%);
 }
 
+.center-vh {
+    @include centerVH();
+}
