@@ -19,8 +19,6 @@
 
 It allows you to:
 
-*  Make **Ready-made responsive grids**
-
 *  Write **short forms** of most commonly repeated **CSS properties**
 
     SCSS
@@ -49,9 +47,15 @@ It allows you to:
     <li class="d-block tac ttu">Meet with Susan</li>
    ```
 
-*  Use **ready-made UI components**  built using  **CSS only**  (except in few cases where **short lines of JS**  is required. This  **boosts the speed**  of your page dramatically).
 
-* **Easily extensible**  and offers  **great flexibility**.
+*  Use **Ready-made responsive grids** and focus more on your page's look
+
+
+*  Use **ready-made UI components**  built using  **only CSS**  (except in few cases where **short lines of JS**  is required. This  **boosts the speed**  of your page dramatically).
+
+
+* Easily extend the mixins and enjoy  **great flexibility**.
+
 
 
 ## Code examples
