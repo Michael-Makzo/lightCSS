@@ -10,7 +10,7 @@
 }
 
 .tdn {
-    @include tdn();
+    @include tdn;
 }
 
 @mixin tdu {
@@ -18,7 +18,7 @@
 }
 
 .tdu {
-    @include tdu();
+    @include tdu;
 }
 
 /* Text align */
@@ -27,7 +27,7 @@
 }
 
 .tac {
-    @include tac();
+    @include tac;
 }
 
 @mixin tal {
@@ -35,7 +35,7 @@
 }
 
 .tal {
-    @include tal();
+    @include tal;
 }
 
 @mixin tar {
@@ -43,7 +43,7 @@
 }
 
 .tar {
-    @include tar();
+    @include tar;
 }
 
 
@@ -53,7 +53,7 @@
 }
 
 .ttu {
-    @include ttu();
+    @include ttu;
 }
 
 @mixin ttl {
@@ -61,7 +61,7 @@
 }
 
 .ttl {
-    @include ttl();
+    @include ttl;
 }
 
 @mixin  ttc {
@@ -69,7 +69,7 @@
 }
 
 .ttc {
-    @include ttc();
+    @include ttc;
 }
 
 
@@ -79,7 +79,7 @@
 }
 
 .d-inline {
-    @include di();
+    @include di;
 }
 
 @mixin db {
@@ -87,7 +87,7 @@
 }
 
 .db {
-    @include db();
+    @include db;
 }
 
 @mixin dib {
@@ -95,7 +95,7 @@
 }
 
 .dib {
-    @include dib();
+    @include dib;
 }
 
 @mixin dn {
@@ -113,12 +113,12 @@
 }
 
 .m0a {
-    @include m0a();
+    @include m0a;
 }
 
 
 /* Clearfix for floated contents */
-@mixin clearfix() {
+@mixin clearfix {
     &::after {
         content: '';
         display: block;
@@ -129,7 +129,7 @@
 }
 
 .cf {
-    @include clearfix();
+    @include clearfix;
 }
 
 
@@ -144,5 +144,5 @@
 }
 
 .center-vh {
-    @include centerVH();
+    @include centerVH;
 }
