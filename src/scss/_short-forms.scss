@@ -86,7 +86,7 @@
     display: block;
 }
 
-.db {
+.d-block {
     @include db;
 }
 
@@ -94,7 +94,7 @@
     display: inline-block;
 }
 
-.dib {
+.d-inline-block {
     @include dib;
 }
 
