@@ -12,7 +12,7 @@
 - [Getting started](#getting-started)
 - [Documentation](#documentation)
 - [Installation](#installation)
-- [Copyright and license](#coopyright-and-license)
+- [Copyright and license](#copyright-and-license)
 
 
 ## Features
@@ -34,13 +34,20 @@ It allows you to:
    ```
    
    CSS output
-   ``css
+   ```css
    
    .list {
         display: inline-block;
         text-align: center;
         text-transform: uppercase;
    }
+   ```
+   
+   This is also made simpler with HTML classes
+   
+   ```HTML
+    <li class="d-block tac ttu">Meet with Susan</li>
+   ```
 
 *  Use **ready-made UI components**  built using  **CSS only**  (except in few cases where **short lines of JS**  is required. This  **boosts the speed**  of your page dramatically).
 
