@@ -1,0 +1,77 @@
+/* Display */
+@mixin d-inline {
+    display: inline;
+}
+
+.d-inline {
+    @include d-inline;
+}
+
+@mixin d-block {
+    display: block;
+}
+
+.d-block {
+    @include d-block;
+}
+
+@mixin d-inline-block {
+    display: inline-block;
+}
+
+.d-inline-block {
+    @include d-inline-block;
+}
+
+@mixin d-table {
+	display: table;
+}
+
+.d-table {
+    @include d-table;
+}
+
+@mixin d-table-row {
+	display: table-row;
+}
+
+.d-table-row {
+    @include d-table-row;
+}
+
+@mixin d-table-cell {
+	display: table-cell;
+}
+
+.d-table-cell {
+    @include d-table-cell;
+}
+
+@mixin d-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.d-flex {
+	@include d-flex;
+}
+
+@mixin d-inline-flex {
+	display: -ms-inline-flexbox;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}
+
+.d-inline-flex {
+	@include d-inline-flex;
+}
+
+@mixin d-none {
+    display: none;
+}
+
+.d-none {
+    @include d-none;
+}
