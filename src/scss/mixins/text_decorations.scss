@@ -1,0 +1,16 @@
+/* Text decoration */
+@mixin tdn {
+    text-decoration: none;
+}
+
+.tdn {
+    @include tdn;
+}
+
+@mixin tdu {
+    text-decoration: underline;
+}
+
+.tdu {
+    @include tdu;
+}
