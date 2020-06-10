@@ -1,0 +1,10 @@
+/* Box-sizing keeps a div box to same size, even when padding is added to it */
+@mixin box-s ($check: true) {
+    @if $check {
+        box-sizing: border-box;
+    }
+}
+
+.box-s {
+    @include box-s();
+}
