@@ -1,1 +1,24 @@
+/* Text align */
+@mixin tac {
+    text-align: center;
+}
 
+.tac {
+    @include tac;
+}
+
+@mixin tal {
+    text-align: left;
+}
+
+.tal {
+    @include tal;
+}
+
+@mixin tar {
+    text-align: right;
+}
+
+.tar {
+    @include tar;
+}
