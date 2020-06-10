@@ -1,0 +1,24 @@
+/* Text transform */
+@mixin ttu {
+    text-transform: uppercase;
+}
+
+.ttu {
+    @include ttu;
+}
+
+@mixin ttl {
+    text-transform: lowercase;
+}
+
+.ttl {
+    @include ttl;
+}
+
+@mixin  ttc {
+    text-transform: capitalize;
+}
+
+.ttc {
+    @include ttc;
+}
