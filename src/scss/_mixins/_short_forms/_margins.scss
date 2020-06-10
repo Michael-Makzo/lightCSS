@@ -1,0 +1,9 @@
+/* Margins */
+
+@mixin m0a {
+    margin: 0 auto;
+}
+
+.m0a {
+    @include m0a;
+}
