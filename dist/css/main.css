@@ -34,11 +34,14 @@
 .d-inline {
   display: inline; }
 
-.db {
+.d-block {
   display: block; }
 
-.dib {
+.d-inline-block {
   display: inline-block; }
+
+.d-none {
+  display: none; }
 
 /* Margin 0 auto */
 .m0a {
@@ -60,6 +63,31 @@
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+/* Box-sizing keeps a div box to same size, even when padding is added to it */
+.box-s {
+  box-sizing: border-box; }
+
+/* Padding with default values and options to verride */
+.p-l {
+  padding-left: 10px; }
+
+.p-r {
+  padding-right: 10px; }
+
+.p-t {
+  padding-top: 10px; }
+
+.p-b {
+  padding-bottom: 10px; }
+
+/* Padding with 2 arguments top and bottom, right and left */
+.p-2 {
+  padding: 10px 10px; }
+
+/* Padding with all arguments */
+.p-all {
+  padding: 10px 10px 10px 10px; }
 
 /**
  * --------------------------------------------------------------------------------

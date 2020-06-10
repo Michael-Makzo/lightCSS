@@ -146,3 +146,71 @@
 .center-vh {
     @include centerVH;
 }
+
+
+/* Box-sizing keeps a div box to same size, even when padding is added to it */
+@mixin box-s($check: true){
+    @if $check{
+        box-sizing: border-box;
+    }
+}
+
+.box-s{
+    @include box-s()
+}
+
+
+/* Padding with default values and options to verride */
+@mixin p-l ($size: 10px){
+    padding-left: $size;
+}
+
+.p-l{
+    @include p-l();
+}
+
+
+@mixin p-r ($size: 10px){
+    padding-right: $size;
+}
+
+.p-r{
+    @include p-r();
+}
+
+@mixin p-t ($size: 10px){
+    padding-top: $size;
+}
+
+.p-t{
+    @include p-t();
+}
+
+@mixin p-b ($size: 10px){
+    padding-bottom: $size;
+}
+
+.p-b{
+    @include p-b();
+}
+
+
+/* Padding with 2 arguments top and bottom, right and left */
+@mixin p-2($size0: 10px, $size1: 10px){
+    padding: $size0 $size1;
+}
+
+.p-2{
+    @include p-2();
+}
+
+/* Padding with all arguments */
+
+@mixin p-all($size0: 10px, $size1: 10px, $size2: 10px, $size3: 10px){
+    padding: $size0 $size1 $size2 $size3;
+   
+}
+
+.p-all{
+    @include p-all();
+}
